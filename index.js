@@ -52,7 +52,7 @@ function mapToSquare(sourceArray){
 mapToSquare(array)
 //////////////////////////////////////////////
 function reduceToTotal(sourceArray, startingPoint = 0){
-  
+
   for (let i = 0; i < sourceArray.length; i++){
     startingPoint = sourceArray[i] + startingPoint
   }
